@@ -1,5 +1,5 @@
-class ClockFunction extends React.Component {
-
+import React,{Component} from 'react';
+class ClockFunction extends Component {
     constructor() {
         super();
         this.state = { time: new Date() }; 
@@ -26,3 +26,4 @@ class ClockFunction extends React.Component {
         </div>);
     }
 }
+export default ClockFunction;
